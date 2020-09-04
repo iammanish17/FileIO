@@ -1,6 +1,6 @@
 # FileIO
  
-A Python class to manage input/output from files and stdin/stdout easily and simultaneously if needed.
+A Python class to manage input/output from files and stdin/stdout easily and simultaneously.
 
 # Usage
 
