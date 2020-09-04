@@ -6,7 +6,7 @@ A Python class to manage input/output from files and stdin/stdout easily and sim
 
 Import the class and re-define the `input` and `print` functions.
 
-```
+```python
 from FileIO import FileIO
 io = FileIO('input.txt', 'output.txt')
 
@@ -16,7 +16,7 @@ print = io.write_output
 
 Use them to get the input or write the output to file/stdout.
 
-```
+```python
 # take input from file
 n = int(input())
 a = list(map(int, input().split()))
